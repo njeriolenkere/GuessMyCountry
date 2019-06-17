@@ -1,0 +1,13 @@
+body{
+
+	font-family: "georgia", Arial, sans-serif; 
+    font-size:19px;
+color: black;
+overflow: scroll;
+max-width: 100%;}
+.page-title{
+	font-size:49px;}
+.container-fluid{ 
+	background: #A4D9FC; 
+    overflow: hidden;
+    margin: 0, auto;}

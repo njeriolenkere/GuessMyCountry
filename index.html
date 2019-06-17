@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Guess my Country</title>
+      <meta name="guess games, games by njeri olenkere,  guess my country" content="computer games"/>
+      <meta charset="utf-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
+        
+        <link href="bootstrap.min.css" rel="stylesheet" type="text/css"/>
+         <link rel="stylesheet" href="guess.css" />
+    </head>
+    <body>
+        
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2">&nbsp;</div> 
+                <div class="col-md-8"><h1 class="page-title">Guess My Country!</h1><small>How smart are you?</small><hr />
+                    
+                    <div class="row">
+                        <div class="col-md-6" id="chancediv">Chances: </div>
+                        <div class="col-md-6" align="right" id="scorediv">Score: 0</div>
+                    </div><hr />
+                    <div id="country"></div>
+                    <div class="jumbotron" align="center">
+                        <div id="hintdiv">Hint: <small>etc etc etc</small></div>
+                        <h2 id="blankdiv">_ _ _ _ _ _ _</h2>
+                        <hr />
+                
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="text" id="guess" placeholder="your guess here" class="form-control input-lg"/><br />
+                            </div>
+                            <div class="col-md-4">
+                                <button id="btnGuess" class="btn btn-success btn-lg btn-block">Guess!</button><br />
+                            </div>
+                            <div class="col-md-4">
+                                <button id="btnClear" class="btn btn-danger btn-lg btn-block">Clear</button><br />
+                            </div>
+                            <div class="col-md-4">
+                                <button id="btnNew" class="btn btn-default btn-lg btn-block">New</button><br />
+                            </div>
+                        </div>
+                       
+                    </div>
+                    
+                </div>
+                <div class="col-md-2">&nbsp;</div>
+            </div>
+        </div>
+        
+        <script src="country.js" type="text/javascript"></script>
+        <script src="guess.js" type="text/javascript"></script>
+    </body>
+</html>
