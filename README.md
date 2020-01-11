@@ -1,2 +1,2 @@
 # GuessMyCountry
-A simple game where you guess my country
+A simple game of guessing my country
